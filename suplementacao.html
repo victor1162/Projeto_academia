@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Academia</title>
+	<meta charset="utf-8">
+
+	<!-- FOLHA DE ESTILO -->
+	<script src="js/alimentacao.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/treinos.css">
+	<link rel="stylesheet" type="text/css" href="css/alimentacao.css">
+	<link rel="stylesheet" type="text/css" href="css/suplementacao.css">
+	<!-- LINKS FONTS-->
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap" rel="stylesheet">
+
+	<!-- HTML5 SHIV & NORMALIZE -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<!--[if lt IE 9]>
+	<script src="https://cdn.es.gov.br/scripts/extensions/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body id="suplementos">
+
+	<div id="container"><!-- inicio container -->
+
+		<header><!-- inicio header -->
+			<div id="area-logo">
+				<div class="">
+					<a  class="logo" href="">Info Academia</a>
+				</div>
+			</div>
+			
+
+			<nav id="home">
+				<a href="index.html" class="border-radius selecionado-home">
+					<ul>
+						<li>Home</li>
+					</ul>
+				</a>
+
+
+				<a href="alimentacao.html" class="selecionado-alimentacao">
+					<ul>
+						<li>Alimentação</li>
+					</ul>
+				</a>
+
+				<a href="suplementacao.html" class="selecionado-suplementos">
+					<ul>
+						<li>Suplementação</li>
+					</ul>
+				</a>
+
+				
+			</nav><div class="clean"></div>
+		</header><!-- final header -->
+		
+		<div id="area-conteudo" class="page-alimentacao"><!-- inicio area-conteudo -->
+
+			
+			
+
+			<div id="conteudo"><!-- inicio conteudo -->
+				<div id="listade-alimentos">
+					<span>Suplementação</span>
+
+					<h2>Suplementação  & Nutrição</h2>
+
+				</div>
+
+				<div class="area-suplemento">
+
+					<!-- MODAL 1 --> 
+					<a href="#" class="link-suplemento"onclick="abrirModal()"><section class="postagem-suplemento largura-suplemento" id="whey-protein">
+
+						<h3>Whey Protein</h3>
+
+							<div class="centrelizar">
+								<img src="imagens/soja.jpg" width="720px">
+							</div>
+					</section></a>
+
+					<div class="bg-modal" id="modal">
+						<div class=modal>
+							<span class="close" onclick="fecharModal()">&times;</span>
+
+							<div class="modal-suplementos">
+
+								<h3>Whey Protein</h3>
+
+								<div class="img-modal">
+									<img src="">
+								</div>
+
+								<p>
+									<h3>Quais os beneficios ?</h3>
+									<br/>
+									<ul>
+										<li>Ganho de massa muscular em praticantes de atividades físicas</li>
+										<li>Diminuição da fadiga muscular</li>
+										<li>Manutenção da massa muscular durante o processo de emagrecimento</li>
+										<li>Redução da gordura corporal</li>
+										<li>Aumento da saciedade</li>
+										<li>Controle da diabetes</li>
+
+									</ul>
+								</p>
+
+							</div>
+
+						</div>
+					</div>
+					<!-- FIM DA MODAL 1 -->
+					
+
+
+					<!-- MODAL 2 --> 
+					<a href="#" class="link-suplemento" onclick="abrirModal2()"><section class="postagem-suplemento largura-suplemento" id="creatina">
+
+						<h3>Creatina</h3>
+
+						<div class="centrelizar">
+							<img src="imagens/camarao.jpg" width="720px">
+						</div>
+					</section></a>
+
+					<div class="bg-modal" id="modal2">
+						<div class=modal>
+							<span class="close" onclick="fecharModal2()">&times;</span>
+
+							<div class="modal-suplementos">
+
+								<h3>Creatina</h3>
+
+								<div class="img-modal">
+									<img src="">
+								</div>
+
+								<p>
+									<h3>Quais os beneficios ?</h3>
+									<br/>
+									<ul>
+										<li>Ganho de massa muscular em praticantes de atividades físicas</li>
+										<li>Diminuição da fadiga muscular</li>
+										<li>Manutenção da massa muscular durante o processo de emagrecimento</li>
+										<li>Redução da gordura corporal</li>
+										<li>Aumento da saciedade</li>
+										<li>Controle da diabetes</li>
+
+									</ul>
+								</p>
+
+							</div>
+
+						</div>
+					</div>
+					<!-- FIM DA MODAL 2 -->
+
+
+
+					<!-- MODAL 3 --> 
+					<a href="#" class="link-suplemento" onclick="abrirModal3()"><section class="postagem-suplemento largura-suplemento" id="bcaas">
+
+						<h3>BCAAS</h3>
+
+						<div class="centrelizar">
+							<img src="imagens/frango.jpg">
+						</div>
+					</section></a>
+
+					<div class="bg-modal" id="modal3">
+						<div class=modal>
+							<span class="close" onclick="fecharModal3()">&times;</span>
+							<div class="modal-suplementos">
+
+								<h3>BCAAS</h3>
+
+								<div class="img-modal">
+									<img src="">
+								</div>
+
+								<p>
+									<h3>Quais os beneficios ?</h3>
+									<br/>
+									<ul>
+										<li>Ganho de massa muscular em praticantes de atividades físicas</li>
+										<li>Diminuição da fadiga muscular</li>
+										<li>Manutenção da massa muscular durante o processo de emagrecimento</li>
+										<li>Redução da gordura corporal</li>
+										<li>Aumento da saciedade</li>
+										<li>Controle da diabetes</li>
+
+									</ul>
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<!-- FIM DA MODAL 3 -->
+
+
+
+					<!-- MODAL 4 --> 
+					<a href="#" class="link-suplemento" onclick="abrirModal4()"><section class="postagem-suplemento largura-suplemento" id="zma">
+
+						<h3>ZMA</h3>
+
+						<div class="centrelizar">
+							<img src="imagens/salmao.jpg">
+						</div>
+					</section></a>
+
+					<div class="bg-modal" id="modal4">
+						<div class=modal>
+							<span class="close" onclick="fecharModal4()">&times;</span>
+							<div class="modal-suplementos">
+
+								<h3>ZMA</h3>
+
+								<div class="img-modal">
+									<img src="">
+								</div>
+
+								<p>
+									<h3>Quais os beneficios ?</h3>
+									<br/>
+									<ul>
+										<li>Ganho de massa muscular em praticantes de atividades físicas</li>
+										<li>Diminuição da fadiga muscular</li>
+										<li>Manutenção da massa muscular durante o processo de emagrecimento</li>
+										<li>Redução da gordura corporal</li>
+										<li>Aumento da saciedade</li>
+										<li>Controle da diabetes</li>
+
+									</ul>
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<!-- FIM DA MODAL 4 -->
+
+
+					<!-- MODAL 5 --> 
+					<a href="#" class="link-suplemento" onclick="abrirModal5()"><section class="postagem-suplemento largura-suplemento" id="multivitaminicos">
+
+						<h3>Multivitamínicos</h3>
+
+						<div class="centrelizar">
+							<img src="imagens/amendoa.jpg">
+						</div>
+					</section></a>
+
+					<div class="bg-modal" id="modal5">
+						<div class=modal>
+							<span class="close" onclick="fecharModal5()">&times;</span>
+							<div class="modal-suplementos">
+
+								<h3>Multivitamínicos</h3>
+
+								<div class="img-modal">
+									<img src="">
+								</div>
+
+								<p>
+									<h3>Quais os beneficios ?</h3>
+									<br/>
+									<ul>
+										<li>Ganho de massa muscular em praticantes de atividades físicas</li>
+										<li>Diminuição da fadiga muscular</li>
+										<li>Manutenção da massa muscular durante o processo de emagrecimento</li>
+										<li>Redução da gordura corporal</li>
+										<li>Aumento da saciedade</li>
+										<li>Controle da diabetes</li>
+
+									</ul>
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<!-- FIM DA MODAL 5 -->
+					</div>
+
+
+<!--  -->
+
+
+					<div class="area-suplemento">
+
+					<!-- MODAL 6 --> 
+					<a href="#" class="link-suplemento" onclick="abrirModal6()"><section class="postagem-suplemento largura-suplemento" id="acidos-graxos-essenciais">
+
+						<h3>acidos-graxos-essenciais</h3>
+
+						<div class="centrelizar">
+							<img src="imagens/carne-vermelha.jpg">
+						</div>
+					</section></a>
+
+					<div class="bg-modal" id="modal6">
+						<div class=modal>
+							<span class="close" onclick="fecharModal6()">&times;</span>
+							<div class="modal-suplementos">
+
+								<h3>acidos-graxos-essenciais</h3>
+
+								<div class="img-modal">
+									<img src="">
+								</div>
+
+								<p>
+									<h3>Quais os beneficios ?</h3>
+									<br/>
+									<ul>
+										<li>Ganho de massa muscular em praticantes de atividades físicas</li>
+										<li>Diminuição da fadiga muscular</li>
+										<li>Manutenção da massa muscular durante o processo de emagrecimento</li>
+										<li>Redução da gordura corporal</li>
+										<li>Aumento da saciedade</li>
+										<li>Controle da diabetes</li>
+
+									</ul>
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<!-- FIM DA MODAL 6 -->
+
+
+					<!-- MODAL 7 --> 
+					<a href="#" class="link-suplemento" onclick="abrirModal7()"><section class="postagem-suplemento largura-suplemento" id="termogenicos">
+
+						<h3>Termogênicos</h3>
+
+						<div class="centrelizar">
+							<img src="imagens/peixes.jpg">
+						</div>
+					</section></a>
+
+					<div class="bg-modal" id="modal7">
+						<div class=modal>
+							<span class="close" onclick="fecharModal7()">&times;</span>
+							<div class="modal-suplementos">
+
+								<h3>Termogênicos</h3>
+
+								<div class="img-modal">
+									<img src="">
+								</div>
+
+								<p>
+									<h3>Quais os beneficios ?</h3>
+									<br/>
+									<ul>
+										<li>Ganho de massa muscular em praticantes de atividades físicas</li>
+										<li>Diminuição da fadiga muscular</li>
+										<li>Manutenção da massa muscular durante o processo de emagrecimento</li>
+										<li>Redução da gordura corporal</li>
+										<li>Aumento da saciedade</li>
+										<li>Controle da diabetes</li>
+
+									</ul>
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<!-- FIM DA MODAL 7 -->
+
+
+					<!-- MODAL 8 --> 
+					<a href="#" class="link-suplemento" onclick="abrirModal8()"><section class="postagem-suplemento largura-suplemento" id="oxido-nitrico">
+
+						<h3>Óxido nítrico</h3>
+
+						<div class="centrelizar">
+							<img src="imagens/tofu.jpg">
+						</div>
+					</section></a>
+
+					<div class="bg-modal" id="modal8">
+						<div class=modal>
+							<span class="close" onclick="fecharModal8()">&times;</span>
+							<div class="modal-suplementos">
+
+								<h3>Óxido nítrico</h3>
+
+								<div class="img-modal">
+									<img src="">
+								</div>
+
+								<p>
+									<h3>Quais os beneficios ?</h3>
+									<br/>
+									<ul>
+										<li>Ganho de massa muscular em praticantes de atividades físicas</li>
+										<li>Diminuição da fadiga muscular</li>
+										<li>Manutenção da massa muscular durante o processo de emagrecimento</li>
+										<li>Redução da gordura corporal</li>
+										<li>Aumento da saciedade</li>
+										<li>Controle da diabetes</li>
+
+									</ul>
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<!-- FIM DA MODAL 8 -->
+
+
+
+					<!-- MODAL 9 --> 
+					<a href="#" class="link-suplemento" onclick="abrirModal9()"><section class="postagem-suplemento largura-suplemento" id="caseina">
+
+						<h3>Caseína</h3>
+
+						<div class="centrelizar">
+							<img src="imagens/leite.jpg">
+						</div>
+					</section></a>
+
+					<div class="bg-modal" id="modal9">
+						<div class=modal>
+							<span class="close" onclick="fecharModal9()">&times;</span>
+							<div class="modal-suplementos">
+
+								<h3>Caseína</h3>
+
+								<div class="img-modal">
+									<img src="">
+								</div>
+
+								<p>
+									<h3>Quais os beneficios ?</h3>
+									<br/>
+									<ul>
+										<li>Ganho de massa muscular em praticantes de atividades físicas</li>
+										<li>Diminuição da fadiga muscular</li>
+										<li>Manutenção da massa muscular durante o processo de emagrecimento</li>
+										<li>Redução da gordura corporal</li>
+										<li>Aumento da saciedade</li>
+										<li>Controle da diabetes</li>
+
+									</ul>
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<!-- FIM DA MODAL 9 -->
+
+
+					<!-- MODAL 10 --> 
+					<a href="#" class="link-suplemento" onclick="abrirModal10()"><section class="postagem-suplemento largura-suplemento" id="albumina">
+
+						<h3>albumina</h3>
+
+						<div class="centrelizar">
+							<img src="imagens/ovos.jpg">
+						</div>
+					</section></a>
+
+					<div class="bg-modal" id="modal10">
+						<div class=modal>
+							<span class="close" onclick="fecharModal10()">&times;</span>
+							<div class="modal-suplementos">
+
+								<h3>albumina</h3>
+
+								<div class="img-modal">
+									<img src="">
+								</div>
+
+								<p>
+									<h3>Quais os beneficios ?</h3>
+									<br/>
+									<ul>
+										<li>Ganho de massa muscular em praticantes de atividades físicas</li>
+										<li>Diminuição da fadiga muscular</li>
+										<li>Manutenção da massa muscular durante o processo de emagrecimento</li>
+										<li>Redução da gordura corporal</li>
+										<li>Aumento da saciedade</li>
+										<li>Controle da diabetes</li>
+
+									</ul>
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<!-- FIM DA MODAL 10 -->
+
+					<br>
+					
+					<br>
+				</div>
+
+
+			</div><!-- final conteudo -->
+
+			
+				
+			</div>
+				
+
+		</div><!-- final area-conteudo -->
+		
+	</div>
+	
+	<div id="area-rodape" class="clean">
+		<div id="rodape">
+			
+			&copy; Todos os direitos reservado.
+			
+		</div>
+	</div>
+
+
+</body>
+
+</html>

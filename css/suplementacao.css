@@ -1,0 +1,100 @@
+/* * * * * * * * * * * * ** AREA SUPLEMENTO ** * *  * * * * * * *  * * * * * */
+.area-suplemento{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	max-width: 100%;
+	margin-top: 50px;
+}
+
+.largura-suplemento img{
+	width: 100%;
+}
+
+
+.postagem-suplemento h3{
+	font-size: 1em;
+	margin: 10px 0px;
+}
+
+.link-suplemento{
+	text-align: center;
+	color: black;
+	margin: 10px;
+	width: 200px;
+	border: 2px solid #D8D8D8;
+	z-index: 2;
+	display: block;
+}
+.link-suplemento:hover{
+	background-color: #F2F2F2;
+	border: 2px solid #A4A4A4;
+}
+
+html,body{
+			width: 100%;
+			height: 100%;
+		}
+
+		.bg-modal{
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0,0.75);
+			position: fixed;
+			z-index: 3;
+			top: -100%;
+			display: block;
+			transition: 350ms;
+
+		}
+		.modal{
+			width: 50%;
+			height: 60%;
+			background: #fff;
+			border: 1px solid black;
+			border-radius: 5px;
+			margin: 80px auto 0px auto;
+		}
+		.modal span{
+			float: right;
+			font-size: 50px;
+			color: #000;
+			margin: 8px 20px;
+			transition: 350ms;
+			cursor: pointer;
+		}
+		.modal span:hover{
+			color: #990000;
+			transition: 350ms;
+		}
+		
+/**	CONTEUDO DA MODAL **/
+.modal-suplementos{
+	margin: 60px auto;
+	width: 600px;
+	margin-bottom: 0px;
+}
+.modal-suplementos h3{
+	color: #FF8000;
+	border-bottom: 2px solid #FF8000;
+	text-indent: 30px;
+
+
+}/*img-modal*/
+
+.img-modal{
+	width: 200px;
+	height: 200px;
+	margin: 20px auto;
+	background: url(../imagens/whey-protein.jpg) center center;
+	
+	background-size: cover;
+}
+.modal-suplementos ul li{
+	font-size: 0.9em;
+	font-weight: bold;
+	list-style: circle;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
